@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nanhua.retrieval.mapper.PolicyMapper">
+    <select id="selecttById" resultType="string">
+        SELECT policytitle FROM policy WHERE policyid = #{policyid}
+    </select>
+    <select id="selectbById" resultType="string">
+        SELECT policybody FROM policy WHERE policyid = #{policyid}
+    </select>
+    <!-- 声明一个名为selectAll的查询语句 -->
+    <select id="getall" resultType="com.nanhua.retrieval.entity.Policy">
+        SELECT * FROM policy
+    </select>
+    <update id="updatePolicyRelevance">
+        UPDATE policy SET relevance = #{relevance} WHERE policyid = #{policyid}
+    </update>
+</mapper>

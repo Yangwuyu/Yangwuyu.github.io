@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: yyy77777
+    url: jdbc:mysql:///policy_info_retrieval
+  redis:
+    port: 6379
+
+logging:
+  level:
+    com.lantu: debug
+
