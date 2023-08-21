@@ -1,6 +1,6 @@
 package com.digiwin.testdap.basic.service;
 
-import com.digiwin.test.basic.service.IDemoDocumentIdGeneratorService;
+import com.digiwin.testdap.basic.service.impl.IDemoDocumentIdGeneratorService;
 import com.digiwin.util.DocumentIdGenerator;
 import com.digiwin.util.DocumentIdSetting;
 import org.springframework.beans.factory.annotation.Autowired;

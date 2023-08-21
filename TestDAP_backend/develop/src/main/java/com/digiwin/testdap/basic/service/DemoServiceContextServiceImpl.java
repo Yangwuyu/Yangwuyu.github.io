@@ -1,7 +1,8 @@
 package com.digiwin.testdap.basic.service;
 
 import com.digiwin.app.service.DWServiceContext;
-import com.digiwin.test.basic.service.IDemoServiceContextService;
+import com.digiwin.testdap.basic.service.impl.IDemoServiceContextService;
+
 
 import java.util.Map;
 import java.util.Objects;

@@ -2,7 +2,7 @@ package com.digiwin.testdap.basic.service;
 
 import com.digiwin.app.dao.*;
 import com.digiwin.app.data.*;
-import com.digiwin.test.basic.service.IDemoOrderService;
+import com.digiwin.testdap.basic.service.impl.IDemoOrderService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -6,7 +6,7 @@ import com.digiwin.app.data.DWDataSetOperationOption;
 import com.digiwin.app.data.DWDataTable;
 import com.digiwin.app.data.DWSQLOptionsBuilder;
 import com.digiwin.app.service.DWServiceResult;
-import com.digiwin.test.basic.service.IDemoCoreComponent;
+import com.digiwin.testdap.basic.service.impl.IDemoCoreComponent;
 import com.digiwin.utils.DWTenantUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
